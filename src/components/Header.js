@@ -8,9 +8,8 @@ class Header extends Component {
     return false;
   }
   render() {
-    console.log('Header');
     return (
-      <div>    
+      <div>
         <h1 className=''>RoboFriends</h1>
         <CounterButton color={ 'red' } />
       </div>
